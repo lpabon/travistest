@@ -1,4 +1,5 @@
 language: c
+install: sudo apt-get -y install attr
 script:
     - echo "Hello World"
     - mkdir testdir

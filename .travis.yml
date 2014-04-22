@@ -2,4 +2,7 @@ language: c
 install:
     - apt-get -y update
     - apt-get -y install docker
-script: echo "Hello World"
+script:
+    - echo "Hello World"
+    - mount
+    - env

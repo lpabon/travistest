@@ -1,7 +1,7 @@
 language: c
 install:
-    - apt-get -y update
-    - apt-get -y install docker
+    - sudo apt-get -y update
+    - sudo apt-get -y install docker
 script:
     - echo "Hello World"
     - mount

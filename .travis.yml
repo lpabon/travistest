@@ -1,8 +1,8 @@
 language: c
-install:
-    - sudo apt-get -y update
-    - sudo apt-get -y install docker
 script:
     - echo "Hello World"
+    - mkdir testdir
+    - setfattr -n user.myname -v "testdirexample" testdir
+    - getfattr -d testdir
     - mount
     - env

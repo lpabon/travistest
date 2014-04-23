@@ -7,3 +7,5 @@ script:
     - getfattr -d testdir
     - mount
     - env
+    - service start memcached
+    - ps -ef | gre memcached

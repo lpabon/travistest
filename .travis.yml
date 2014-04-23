@@ -7,5 +7,5 @@ script:
     - getfattr -d testdir
     - mount
     - env
-    - service memcached start
+    - sudo service memcached start
     - ps -ef | grep memcached
